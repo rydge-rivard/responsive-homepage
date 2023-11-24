@@ -13,7 +13,7 @@
 }
 
 .headshot {
-  margin: 60px;
+  margin: 120px 60px 60px;
 }
 
 .top-s {
@@ -26,7 +26,7 @@
 }
 
 .top-s h1 {
-  padding: 60px 0 0 0;
+  padding: 120px 0 0 0;
   font-size: 60px;
   text-align: center;
   letter-spacing: -2.2px;
@@ -35,7 +35,8 @@
   line-height: 1;
 }
 
-.about-me {
+.about-me,
+.projects {
   padding: 24px 24px;
   display: flex;
   flex-direction: column;
@@ -57,4 +58,9 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 12px 24px;
+}
+
+.projects h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
