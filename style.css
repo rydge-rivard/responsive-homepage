@@ -16,11 +16,8 @@
   margin: 60px;
 }
 
-section {
-  background-color: #efefef;
-}
-
 .top-s {
+  background-color: #efefef;
   display: flex;
   gap: 6px;
   flex-direction: column;
@@ -36,4 +33,28 @@ section {
   font-weight: 600;
   font-family: "Inter";
   line-height: 1;
+}
+
+.about-me {
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-me p {
+  align-self: baseline;
+}
+
+.icon {
+  width: 50px;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px 24px;
 }
