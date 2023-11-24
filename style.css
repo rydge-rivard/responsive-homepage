@@ -17,7 +17,7 @@
 }
 
 .top-s {
-  background-color: #efefef;
+  background-color: #f6f3ec;
   display: flex;
   gap: 6px;
   flex-direction: column;
@@ -36,8 +36,9 @@
 }
 
 .about-me,
-.projects {
-  padding: 24px 24px;
+.projects,
+footer {
+  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,17 +61,14 @@
   padding: 12px 24px;
 }
 
-.projects h3 {
+.projects h3,
+footer h4 {
   font-size: 24px;
   font-weight: 600;
 }
 
 .card-icon {
   width: 20px;
-}
-
-.projects {
-  padding: 24px 24px 100px 24px;
 }
 
 .proj-title-wrapper {
@@ -89,11 +87,35 @@
 .lower-card {
   padding: 24px;
   box-shadow: 5px 5px 10px -10px;
-  background-color: #efefef;
+  background-color: #f6f3ec;
   border-radius: 0 0 12px 12px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  padding: 24px 24px 60px 24px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+footer * {
+  color: #f6f3ec;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+}
+
+.footer-icon {
+  width: 35px;
 }
