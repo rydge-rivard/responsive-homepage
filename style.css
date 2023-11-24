@@ -1,8 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   list-style: none;
+}
+
+.headshot img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.headshot {
+  margin: 60px;
+}
+
+section {
+  background-color: #efefef;
+}
+
+.top-s {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-s h1 {
+  padding: 60px 0 0 0;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: -2.2px;
+  font-weight: 600;
+  font-family: "Inter";
+  line-height: 1;
 }
