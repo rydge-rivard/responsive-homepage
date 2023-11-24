@@ -5,6 +5,7 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   list-style: none;
+  color: #332424;
 }
 
 .headshot img {
@@ -38,15 +39,11 @@
 .about-me,
 .projects,
 footer {
-  padding: 48px 24px;
+  padding: 60px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-}
-
-.about-me p {
-  align-self: baseline;
 }
 
 .icon {
@@ -58,7 +55,7 @@ footer {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 12px 24px;
+  padding: 12px 24px 0 24px;
 }
 
 .projects h3,
@@ -94,6 +91,7 @@ footer h4 {
 .card {
   display: flex;
   flex-direction: column;
+  padding: 0 0 24px 0;
 }
 
 footer {
@@ -121,11 +119,21 @@ footer p {
   height: 1px;
   width: 80%;
   background-color: black;
-  display: flex;
-  justify-content: center;
 }
 
 .line-wrapper {
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 850px) {
+  .headshot img {
+    width: 50%;
+  }
+  .headshot picture {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* idea: projects slide in from the left as you scroll down on mobile*/

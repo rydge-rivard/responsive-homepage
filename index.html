@@ -8,14 +8,17 @@
   </head>
   <body>
     <header></header>
-    <section class="top-s">
-      <h1>WEB DEVELOPER</h1>
-      <p>Rydge Rivard</p>
-      <div class="headshot">
-        <img src="./img/rydge-small-crop.jpeg" alt="Rydge Rivard" />
-      </div>
-    </section>
-    <main>
+    <div class="top-grid">
+      <section class="top-s">
+        <h1>WEB DEVELOPER</h1>
+        <p>Rydge Rivard</p>
+        <div class="headshot">
+          <picture>
+            <source srcset="./img/rydge-small.jpg" media="(min-width: 850px)" />
+            <img src="./img/rydge-small-crop.jpeg" alt="Rydge Rivard" />
+          </picture>
+        </div>
+      </section>
       <section class="about-me">
         <h2>About Me</h2>
         <p>
@@ -36,6 +39,8 @@
           <img src="./img/webpack.svg" alt="" class="icon" />
         </div>
       </section>
+    </div>
+    <main>
       <div class="line-wrapper">
         <div class="line"></div>
       </div>
