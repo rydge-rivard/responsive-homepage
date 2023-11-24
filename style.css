@@ -64,3 +64,35 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+.card-icon {
+  width: 20px;
+}
+
+.projects {
+  padding: 24px 24px 100px 24px;
+}
+
+.proj-title-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.proj-title-wrapper h4 {
+  flex: 1;
+}
+
+.proj-img {
+  width: 100%;
+}
+
+.lower-card {
+  padding: 24px;
+  box-shadow: 5px 5px 10px -10px;
+  background-color: #efefef;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
