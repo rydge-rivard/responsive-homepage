@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   box-sizing: border-box;
   list-style: none;
   color: #332424;
@@ -28,12 +28,16 @@
 
 .top-s h1 {
   padding: 120px 0 0 0;
-  font-size: 60px;
+  font-size: 66px;
   text-align: center;
-  letter-spacing: -2.2px;
+  letter-spacing: -2.5px;
   font-weight: 600;
-  font-family: "Inter";
   line-height: 1;
+}
+
+.top-s p {
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .about-me,
@@ -44,6 +48,12 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+
+.projects {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .icon {
@@ -59,22 +69,32 @@ footer {
 }
 
 .projects h3,
-footer h4 {
-  font-size: 24px;
-  font-weight: 600;
+footer h4,
+.about-me h2 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.projects h3 {
+  text-align: center;
+  flex-basis: 100%;
 }
 
 .card-icon {
-  width: 20px;
+  width: 24px;
 }
 
 .proj-title-wrapper {
   display: flex;
   gap: 8px;
+  align-items: center;
+  padding: 0 0 8px 0;
 }
 
 .proj-title-wrapper h4 {
   flex: 1;
+  font-size: 18px;
 }
 
 .proj-img {
@@ -91,7 +111,8 @@ footer h4 {
 .card {
   display: flex;
   flex-direction: column;
-  padding: 0 0 24px 0;
+  padding: 0 0 36px 0;
+  max-width: 500px;
 }
 
 footer {
@@ -129,11 +150,16 @@ footer p {
 @media (min-width: 850px) {
   .headshot img {
     width: 50%;
+    max-width: 1400px;
   }
   .headshot picture {
     display: flex;
     justify-content: center;
   }
+}
+
+.proj-title-wrapper h4 {
+  font-weight: 600;
 }
 
 /* idea: projects slide in from the left as you scroll down on mobile*/
