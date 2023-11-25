@@ -158,8 +158,49 @@ footer p {
   }
 }
 
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
 .proj-title-wrapper h4 {
   font-weight: 600;
 }
 
-/* idea: projects slide in from the left as you scroll down on mobile*/
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.icon:nth-child(2) {
+  transition-delay: 100ms;
+}
+
+.icon:nth-child(3) {
+  transition-delay: 200ms;
+}
+
+.icon:nth-child(4) {
+  transition-delay: 300ms;
+}
+
+.icon:nth-child(5) {
+  transition-delay: 400ms;
+}
+
+.icon:nth-child(6) {
+  transition-delay: 500ms;
+}
+
+.icon:nth-child(7) {
+  transition-delay: 600ms;
+}
