@@ -106,6 +106,7 @@ footer h4,
   box-shadow: 5px 5px 10px -10px;
   background-color: #f6f3ec;
   border-radius: 0 0 12px 12px;
+  min-height: 120.5px;
 }
 
 .card {
@@ -203,4 +204,8 @@ footer p {
 
 .icon:nth-child(7) {
   transition-delay: 600ms;
+}
+
+.icon:nth-child(8) {
+  transition-delay: 700ms;
 }
